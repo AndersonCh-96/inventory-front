@@ -1,9 +1,9 @@
 import axios, { AxiosResponse, AxiosRequestConfig } from 'axios';
 
-// axios.defaults.baseURL = 'http://localhost:3010/api/';
+// axios.defaults.baseURL = 'http://localhost:3000/api/';
 
 axios.defaults.baseURL =
-  'https://back-inventory-production.up.railway.app/api/';
+  'https://web-46g9keiep9mz.up-de-fra1-k8s-1.apps.run-on-seenode.com/api/';
 
 class APIClient {
   /**
